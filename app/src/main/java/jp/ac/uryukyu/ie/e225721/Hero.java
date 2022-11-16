@@ -9,8 +9,8 @@ package jp.ac.uryukyu.ie.e225721;
  * Created by tnal on 2016/11/13.
  */
 public class Hero {
-    public String name;
-    public int hitPoint;
+    private String name;
+    private int hitPoint;
     public int attack;
     public boolean dead;
 
@@ -50,5 +50,17 @@ public class Hero {
             dead = true;
             System.out.printf("勇者%sは道半ばで力尽きてしまった。\n", name);
         }
+    }
+
+    public void setName(String name){
+        this.name = name;
+    }
+
+    public String getName(){
+        return this.name;
+    }
+
+    public int getHitpoint(){
+        return this.hitPoint;
     }
 }
