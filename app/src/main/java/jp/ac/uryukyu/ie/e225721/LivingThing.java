@@ -38,4 +38,5 @@ public class LivingThing {
             System.out.printf("%sは倒れた\n", name);
         }
     }
+    public void attackWithWeponSkill(LivingThing opponent) {}
     }

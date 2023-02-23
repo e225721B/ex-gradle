@@ -41,7 +41,7 @@ jar {
     }
 jar {
     manifest {
-        attributes  "Main-Class": "jp.ac.uryukyu.ie.e225721.App"
+        attributes  "Main-Class": "Main"
     }
 }
 
